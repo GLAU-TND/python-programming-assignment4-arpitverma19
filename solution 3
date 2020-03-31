@@ -1,0 +1,8 @@
+
+g=input()
+st=eval(input())
+m=set()
+for k in st:
+  if g==k[0:len(g)]:
+    m.add(k)
+print(m)
